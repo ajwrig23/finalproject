@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Aaron Wright">
+    <meta name="description" content="Plan your next stay at Großer Berg Resort now!">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <title>großer Berg - Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Molengo&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+        <h1><a href="index.html">Großer Berg Resort</a></h1>
+        <nav>
+            <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Accommodations</a></li>
+            <li class="active-page"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="images/swiss-valley.jpg" alt="A green forest nestled in a glacial valley surrounded by partially snow covered peaks." width="600" >
+    </header>
+
+    <main>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <div class="flex-tile">
+                <div>
+                    <p>
+                        Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!
+                        Required fields marked with a <span>*</span>.
+                    </p>
+                    <img src="images/swiss-peak.jpg" alt="A snow covered mountain peak rising behind a glacial stream surrounded by forest." width="300" >
+                </div>    
+                <form action="https://wp.zybooks.com/form-viewer.php" method="POST" target="_blank">
+                    <label for="myName">Full Name<span>*</span></label>
+                    <input type="text" name="myName" id="myName" required>
+
+                    <label for="myEmail">Email<span>*</span></label>
+                    <input type="email" name="myEmail" id="myEmail" required>
+
+                    <label for="myPhone">Phone<span>*</span></label>
+                    <input type="tel" name="myPhone" id="myPhone" required>
+
+
+
+                    <fieldset>
+                        <legend>Preferred Method of Contact<span>*</span></legend>
+                        <p>
+                        <input type="radio" name="contactMethod" id="contactEmail" checked>
+                        <label for="contactEmail">Email</label>
+
+                        <input type="radio" name="contactMethod" id="contactPhone">
+                        <label for="contactPhone">Phone</label>
+                        </p>				
+                    </fieldset>
+
+                    <label for="myComments">Comments<span>*</span></label>
+                    <textarea name="myComments" id="myComments" required></textarea>
+
+                    <input type="submit" name="mySubmit" id="mySubmit" value="Submit">
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+      <p>
+        Copyright ©2023 - Großer Berg Resort
+      </p>
+      <p>
+        This site is for educational purposes only
+      </p>
+    </footer>
+    
+  </body>
+</html>
